@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapmap>
+<project version="0.1">
+    <paints>
+        <paint id="0" type="image">
+            <uri>/tmp/to_mapmap_9.jpg</uri>
+            <x>315</x>
+            <y>87</y>
+        </paint>
+    </paints>
+    <mappings>
+        <mapping id="0" paint_id="0" type="mesh_texture" locked="0" solo="0" visible="1">
+            <destination shape="mesh">
+                <dimensions columns="2" rows="2"/>
+                <vertex x="315" y="87"/>
+                <vertex x="635" y="87"/>
+                <vertex x="315" y="327"/>
+                <vertex x="635" y="327"/>
+            </destination>
+            <source shape="mesh">
+                <dimensions columns="2" rows="2"/>
+                <vertex x="315" y="87"/>
+                <vertex x="635" y="87"/>
+                <vertex x="315" y="327"/>
+                <vertex x="635" y="327"/>
+            </source>
+        </mapping>
+    </mappings>
+</project>
