@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapmap>
+<project version="0.5.1">
+  <paints>
+    <paint className="Image" locked="false" name="to_mapmap_9.jpg" id="1">
+      <opacity>1</opacity>
+      <uri>/tmp/to_mapmap_9.jpg</uri>
+      <rate>1</rate>
+      <x>370.5</x>
+      <y>24</y>
+    </paint>
+  </paints>
+  <mappings>
+    <mapping className="TextureMapping" locked="false" visible="true" name="" paintId="1" id="1" solo="false" depth="1">
+      <opacity>1</opacity>
+      <destination className="Mesh">
+        <locked>false</locked>
+        <nColumns>2</nColumns>
+        <nRows>2</nRows>
+        <vertices>
+          <vertex x="370.5" y="24"/>
+          <vertex x="690.5" y="24"/>
+          <vertex x="370.5" y="264"/>
+          <vertex x="690.5" y="264"/>
+        </vertices>
+      </destination>
+      <source className="Mesh">
+        <locked>false</locked>
+        <nColumns>2</nColumns>
+        <nRows>2</nRows>
+        <vertices>
+          <vertex x="370.5" y="24"/>
+          <vertex x="690.5" y="24"/>
+          <vertex x="370.5" y="264"/>
+          <vertex x="690.5" y="264"/>
+        </vertices>
+      </source>
+    </mapping>
+  </mappings>
+</project>
