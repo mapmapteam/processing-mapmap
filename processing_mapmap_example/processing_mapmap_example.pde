@@ -8,7 +8,7 @@
  // CONFIGURATION:
 static final int MAPMAP_OSC_RECEIVE_PORT = 12345; // MapMap's default OSC receive port.
 static final String OSC_ADDR_SEND_HOST = "localhost";
-static final int MAPMAP_MEDIA_ID = 0; // The source in MapMap
+static final int MAPMAP_MEDIA_ID = 1; // The source in MapMap
 static final int FPS = 24;
 
 // imports
@@ -46,13 +46,13 @@ void draw()
   {
     String file_name = make_frame_file_name();
     saveFrame(file_name);
-    send_mapmap_load_media(MAPMAP_MEDIA_ID, file_name);
+    send_mapmap_paint_uri(MAPMAP_MEDIA_ID, file_name);
   }
 }
 
-void send_mapmap_load_media(int media_id, String file_name)
+void send_mapmap_paint_uri(int media_id, String file_name)
 {   
-  OscMessage myMessage = new OscMessage("/mapmap/paint/media/load");
+  OscMessage myMessage = new OscMessage("/mapmap/paint/uri");
   myMessage.add(media_id);
   myMessage.add(file_name);
   oscP5.send(myMessage, address_to_send_to); 

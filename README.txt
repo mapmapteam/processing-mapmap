@@ -13,7 +13,7 @@ Installation
 Uncompress and copy the oscP5 library to your sketches folder.
 Run MapMap with the project::
 
-  mapmap project.mmp
+  mapmap mapmap_processing_example.mmp
 
 Run the processing sketch.
 
